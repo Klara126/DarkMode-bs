@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.search-bar .form-control {
+    border-radius: 0;
+}
+
+.search-bar .btn {
+    border-radius: 0;
+    background-color: #f8f9fa;
+    border-color: #dadce0;
+}
+
+.search-bar .btn:hover {
+    background-color: #e8eaed;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.search-result h5 a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.search-result h5 a:hover {
+    text-decoration: underline;
+}
+
+.sponsored {
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sponsored h6 {
+    margin-bottom: 15px;
+}
+
+.sponsored .card {
+    border: none;
+}
+
+.sponsored .card-img-top {
+    border-radius: 4px;
+}
+
+.sponsored .card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+  
